@@ -1,1 +1,49 @@
 /* TODO: insert styles here */
+body {
+  margin: 0em, 5em;
+}
+h1 {
+  font-family: Lato Black;
+  text-align: center;
+}
+
+h2 {
+  font-family: Roboto Condensed Bold;
+  color: white;
+  background-color: blue;
+  margin-top: 0;
+}
+
+h4 {
+  font-family: Roboto Mono;
+}
+
+p {
+  font-family: Roboto Light;
+}
+
+.Local {
+  display: inline-block;
+  border-style: solid;
+  border-color: blue;
+  margin-right: 7px;
+
+}
+
+.Remotes {
+  display: inline-block;
+  border-style: solid;
+  border-color: #FB4E32;
+  margin-left: 7px;
+}
+
+.Remotes h4 {
+  color: #FB4E32;
+}
+
+#border {
+  border-top: solid blue;
+}
+#orange {
+  background-color:#FB4E32;
+}
